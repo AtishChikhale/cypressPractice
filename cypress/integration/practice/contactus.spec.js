@@ -65,4 +65,4 @@ describe("verify the contact us form along with navigation", function () {
     cy.get('input[value="SUBMIT"]').click();
     cy.get("html").should("contain", "all fields");
   })
-})
+}) 
